@@ -1,0 +1,20 @@
+:root {
+
+    /* Global Scoped Variables Available For Other Modules*/
+    
+    /* Colors */
+    --color-primary-text: rgb(255, 255, 255);
+    --color-secondary-text: rgb(183, 183, 183);
+    --color-tertiary-text: rgb(63, 124, 255);
+    --color-nav-bg: rgb(38, 38, 38);
+
+
+    /* IP!!!!! */
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #0a0a0a;
+
+    /* Fonts */
+    --font-roboto: "Roboto";
+}
