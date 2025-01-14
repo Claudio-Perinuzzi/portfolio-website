@@ -3,3 +3,86 @@
 :root {
     color: aliceblue;
 }
+
+.aboutHeader {
+    margin-top:20px;
+    text-align: center;
+}
+
+.windowContainer {
+    margin-top: 20px;
+    background-color: var(--color-tab);
+    border-radius: 5px;
+    align-self: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 12.5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.5px;
+}
+
+.tabHeader {
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.terminal {
+    background-color: var(--color-terminal-bg);
+    color: var(--color-secondary-text);
+    padding-top: 5px;
+    min-height: 150px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.terminalHeader {
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: rgb(19, 19, 20);
+    border-style: solid;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: gray;
+    
+}
+
+.aboutText {
+    font-size: 20px;
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.ideContainer {
+    font-family: 'Fira Code', 'Courier New', monospace;
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: var(--color-ide-bg);
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+  
+.operator {
+    color: rgb(186, 57, 54); 
+    font-weight: bold;
+}
+
+.import {
+    color: rgb(193, 126, 223); 
+}
+
+.function {
+    color: rgb(111, 161, 221)
+}
+
+.parenthesis {
+    color: rgb(241, 209, 71)
+}
+
+
+  
