@@ -4,8 +4,7 @@ import styles from './ContactCard.module.css';
 export const ContactCard = () => {
     return (
         <section className={styles.contactContainer}>
-            <img src="/assets/intro/headshot_square.png" alt="Image of me" className={styles.contactImg}/>
-                
+            <img src="headshot_square.png" alt="Image of me" className={styles.contactImg}/>
                 <div className={styles.textContainer}>
                     <div className={styles.nameContainer}>
                         <h1 className={styles.fname}>Claudio</h1>
