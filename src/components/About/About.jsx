@@ -34,7 +34,10 @@ export const About = () => {
 
                     <div className={styles.terminal}>
                         last login: {new Date().toLocaleString()} on console <br /> 
-                        (base) cp ~ % python about_me.py
+                        (base) cp ~ % 
+                        <div className={styles.pythonCommand}>
+                            python about_me.py
+                        </div>
                         <br/>
                         <br/>
                         <div className= {styles.aboutText}>

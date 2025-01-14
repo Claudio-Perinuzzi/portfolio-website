@@ -5,8 +5,11 @@
 }
 
 .aboutHeader {
-    margin-top:20px;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 25px;
     text-align: center;
+    color: rgb(193, 126, 223);
 }
 
 .windowContainer {
@@ -14,8 +17,8 @@
     background-color: var(--color-tab);
     border-radius: 5px;
     align-self: center;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 75px;
+    margin-left: 75px;
     font-size: 12.5px;
     border-style: solid;
     border-color: white;
@@ -23,40 +26,86 @@
 }
 
 .tabHeader {
+    font-size: 14px;
     text-align: center;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.terminalHeader {
+    font-family: "Courier New", Courier, monospace; 
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(19, 19, 20);
+    border-style: solid;
+    border-width: 1px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: gray;
 }
 
 .terminal {
+    font-family: "Courier New", Courier, monospace; 
     background-color: var(--color-terminal-bg);
     color: var(--color-secondary-text);
     padding-top: 5px;
     min-height: 150px;
     border-radius: 5px;
     padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 10px;
 }
 
-.terminalHeader {
-    padding-left: 15px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    background-color: rgb(19, 19, 20);
-    border-style: solid;
-    border-right: 0px;
-    border-left: 0px;
-    border-color: gray;
-    
+.pythonCommand {
+    font-family: "Courier New", Courier, monospace; 
+    display: inline-flex;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 1px solid #686a68;
+    animation: typing 1s steps(15, end), blink 1s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 25%;
+    }
+}
+
+@keyframes blink {
+    0%, 50% {
+      border-color: white;
+    }
+    51%, 100% {
+      border-color: transparent;
+    }
 }
 
 .aboutText {
-    font-size: 20px;
-    padding-top: 10px;
+    opacity: 0;
+    margin-top: 10px;
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 1s; 
+    font-size: 22px;
     color: white;
-    padding-bottom: 5px;
+    padding-bottom: 5px;  
+    text-align: center;
 }
 
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+  
 .ideContainer {
     font-family: 'Fira Code', 'Courier New', monospace;
     color: white;
