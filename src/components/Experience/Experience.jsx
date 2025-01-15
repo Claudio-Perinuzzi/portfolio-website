@@ -30,7 +30,7 @@ export const Experience = () => {
                 </div>    
 
                 <div className={styles.windowContainer}>
-                    <div className={styles.tabHeader}>Cuny_Tech_Prep.txt</div>
+                    <div className={styles.tabHeader}>CUNY_Tech_Prep.txt</div>
                         <div className={styles.textContainer}>
                             <div className={styles.roleContainer}>
                                 <span className={styles.role}>Title: </span>
