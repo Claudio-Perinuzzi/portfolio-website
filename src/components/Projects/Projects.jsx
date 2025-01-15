@@ -17,7 +17,7 @@ export const Projects = () => {
                                 <span className={styles.time}>December 2024</span>                            
                             </div>
                             <br />
-                            {/* <div className={styles.gif}>Under Construction</div> */}
+                                <img className={styles.img} src="asl_demo.gif" alt="ASL Demo GIF"/>
                             <br />
                             <p className={styles.description}>
                                 Collaborated with a team to train and fine-tune an Ultralytics YOLO 
@@ -40,7 +40,7 @@ export const Projects = () => {
 
 
                 <div className={styles.windowContainer}>
-                    <div className={styles.tabHeader}>NYC_Air_Quality_Heat_Map_Predictor.txt</div>
+                    <div className={styles.tabHeader}>NYC_AQI_Predictor.txt</div>
                         <div className={styles.textContainer}>
                             <div className={styles.projectContainer}>
                                 <span className={styles.project}>Project: </span>
@@ -52,7 +52,7 @@ export const Projects = () => {
                             <br />
 
                             <p className={styles.description}>
-                                Developed a Python web app with Streamlit to visualize and predict AQI 
+                                Developed a Python web app with Streamlit to visualize and predict AQI (Air Quality Index) 
                                 for NYC neighborhoods. Utilized pandas for data manipulation, geopandas 
                                 and folium for geospatial mapping, and scikit-learn for machine learning. 
                                 The application trains a linear regression model to predict future AQI values.
