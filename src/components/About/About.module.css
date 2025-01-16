@@ -1,15 +1,11 @@
 @import "../../vars.css";
 
-:root {
-    color: aliceblue;
-}
-
 .aboutHeader {
     font-size: 30px;
-    margin-top: 60px;
-    margin-bottom: 25px;
+    margin-top: 40px;
+    margin-bottom: 35px;
     text-align: center;
-    color: rgb(193, 126, 223);
+    color: rgb(111, 161, 221);
 }
 
 .windowContainer {
@@ -26,9 +22,8 @@
     box-sizing: border-box; 
 }
 
-
 .tabHeader {
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -93,8 +88,8 @@
     margin-top: 10px;
     animation: fadeIn 1s ease-in-out forwards;
     animation-delay: 1s; 
-    font-size: 22px;
-    color: white;
+    font-size: 20px;
+    color: rgb(98, 212, 138);
     padding-bottom: 5px;  
     text-align: center;
 }
@@ -134,6 +129,3 @@
 .parenthesis {
     color: rgb(241, 209, 71)
 }
-
-
-  
