@@ -1,6 +1,7 @@
 * { /* Target Every Element */
-  box-sizing: border-box; /* Keep Total Size Consistent */
+  box-sizing: border-box; 
   margin: 0px;
   padding: 0px;
   font-family: "Outfit", Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
