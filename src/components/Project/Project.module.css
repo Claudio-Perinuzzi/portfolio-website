@@ -1,0 +1,127 @@
+@import "../../vars.css";
+
+.projectsHeader {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: rgb(98, 212, 138);
+}
+
+.windowContainer {
+    margin: 20px auto; 
+    margin-bottom: 60px;
+    background-color: var(--color-tab);
+    border-radius: 5px;
+    font-size: 12.5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.5px;
+    max-width: 600px; 
+    min-width: 280px;
+    width: calc(100% - 100px); 
+    box-sizing: border-box; 
+}
+
+.tabHeader {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.textContainer {
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: var(--color-ide-bg);
+    border-radius: 5px;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+
+.projectContainer {
+    display: flex;              
+    justify-content: space-between; 
+    width: 100%;                
+    align-items: center;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;       
+}
+
+.project {
+    color: rgb(193, 126, 223);
+}
+
+.projectTitle {
+    color: rgb(111, 161, 221);
+    padding-left: 3px;
+}
+
+.time {
+    color: rgb(241, 209, 71);
+    margin-left: auto;     
+    margin-right: 10px;      
+}
+
+.description {
+    text-align: center;
+    opacity: 0;
+    padding-right: 10px;
+    animation: fadeIn 1s ease-in-out forwards;
+    font-size: 15px;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.highlight {
+    color: rgb(98, 212, 138);
+    padding: 2px;
+}
+
+.img {
+    max-width: 60%; 
+    display: block;
+    margin: 0 auto; 
+    border-radius: 8px; 
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(84, 84, 84);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+a {
+    text-decoration: none; 
+}
+
+.buttonContainer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    padding-right: 10px;
+}
+
+.button {
+    padding: 8px 15px; 
+    border: 1px solid #444; 
+    border-radius: 5px; 
+    background-color: black; 
+    color: var(--color-primary-text);
+    font-size: 14px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+
+.button:hover {
+    background-color: var(--color-nav-bg);
+    color: var(--color-tertiary-text);
+    transform: scale(1.05); 
+}
