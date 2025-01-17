@@ -32,11 +32,19 @@ export const About = () => {
                     <br/>
                     <br/>
                     <div className= {styles.aboutText}>
-                        Hi, I'm Claudio Perinuzzi! I'm pursuing a Master's in Computer Science 
-                        at Queens College, graduating in May 2025. I'm passionate about machine 
-                        learning and excited to create solutions for real-world challenges. In my 
-                        free time, I enjoy spending time in nature, hiking, and staying active. 
-                        Feel free to check my work out below!                        
+                        Hello, I'm Claudio Perinuzzi! 
+                        <br />
+                        <br />
+                        I'm a graduate student at Queens College, pursuing a Master's 
+                        in Computer Science, with an expected graduation in May 2025.                        <br />
+                        <br />
+                        I am passionate about solving real-world challenges and creating 
+                        software that is accessible and impactful. Beyond my academic and 
+                        professional life, I enjoy spending time in nature, hiking, 
+                        and staying active.
+                        <br />
+                        <br />
+                        Feel free to explore my work below!
                     </div>
                 </div>
             </div>    
