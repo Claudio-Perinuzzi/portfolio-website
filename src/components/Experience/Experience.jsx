@@ -16,7 +16,7 @@ export const Experience = ({ experiences }) => {
                         </div>
                         <br />
                         
-                            {/* Creates breaks or highlighted text based on experience data */}
+                        {/* Creates breaks or highlighted text based on experience data */}
                         <p className={styles.description}>
                             {exp.description.map((desc, idx) => 
                                 desc.break ? (<br key={idx} />) : (<span key={idx} className={desc.highlight ? styles.highlight : undefined}>{desc.text}</span>)
