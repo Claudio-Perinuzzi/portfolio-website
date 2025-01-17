@@ -8,17 +8,7 @@
     --color-tertiary-text: rgb(63, 124, 255);
     --color-nav-bg: rgb(38, 38, 38);
 
-    --color-tab: rgb(40, 42, 46);
+    --color-tab: rgb(53, 55, 60);
     --color-ide-bg: rgb(21, 26, 33);
     --color-terminal-bg: rgb(17, 17, 17);
-
-
-    /* IP!!!!! */
-    --color-primary: #576cbc;
-    --color-secondary: #19376d;
-    --color-dark: #0b2447;
-    --color-bg: #0a0a0a;
-
-    /* Fonts */
-    --font-roboto: "Roboto";
 }
