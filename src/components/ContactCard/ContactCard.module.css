@@ -55,16 +55,22 @@
     transition: all 0.3s ease; 
 }
 
-.buttonContainer {
+.buttonContainer,
+.resumeContainer {
     text-align: center;
     display: flex;
     justify-content: center;
     gap: 15px; 
 }
 
+.resumeContainer {
+    margin-right: 17px;
+}
+
 .emailButton,
 .github,
-.linkedin {
+.linkedin,
+.resume {
     display: flex;
     padding: 10px 20px; 
     border: 1px solid #444; 
@@ -78,7 +84,8 @@
 
 .emailButton:hover,
 .github:hover,
-.linkedin:hover {
+.linkedin:hover,
+.resume:hover {
     background-color: var(--color-nav-bg);
     color: var(--color-tertiary-text);
     transform: scale(1.05); 
