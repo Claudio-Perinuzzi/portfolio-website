@@ -32,6 +32,7 @@
 
 .terminalHeader {
     font-family: "Courier New", Courier, monospace; 
+    color: white;
     padding-left: 15px;
     padding-top: 2px;
     padding-bottom: 2px;
