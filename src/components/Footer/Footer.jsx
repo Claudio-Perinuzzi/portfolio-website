@@ -16,13 +16,6 @@ export const Footer = () => {
                                 </button>
                             </a>
     
-                            <a href="https://github.com/Claudio-Perinuzzi" target="_blank" rel="noopener noreferrer">
-                                <button className={styles.github}>
-                                    <img src="github-original.svg" alt="GitHub Logo" className={styles.icon} />
-                                    Github
-                                </button>
-                            </a>
-    
                             <a href="https://www.linkedin.com/in/claudio-perinuzzi/" target="_blank" rel="noopener noreferrer">
                                 <button className={styles.linkedin}>
                                     <img src="linkedin-plain.svg" alt="LinkedIn Logo" className={styles.icon} />
