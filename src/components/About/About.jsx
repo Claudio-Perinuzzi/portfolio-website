@@ -36,7 +36,8 @@ export const About = () => {
                         <br />
                         <br />
                         I'm a graduate student at Queens College, pursuing a Master's 
-                        in Computer Science, with an expected graduation in May 2025.                        <br />
+                        in Computer Science, with an expected graduation in May 2025.                        
+                        <br />
                         <br />
                         I am passionate about solving real-world challenges and creating 
                         software that is accessible and impactful. Beyond my academic and 
