@@ -46,13 +46,12 @@ body {
     display: flex;
     flex-wrap: wrap; 
     justify-content: center; 
-    gap:50px;
+    gap:30px;
     margin-top: 15px;
     margin-bottom: 25px;
 }
 
 .emailButton,
-.github,
 .linkedin {
     display: flex;
     padding: 10px 20px; 
@@ -66,7 +65,6 @@ body {
 }
 
 .emailButton:hover,
-.github:hover,
 .linkedin:hover {
     background-color: var(--color-nav-bg);
     color: var(--color-tertiary-text);
