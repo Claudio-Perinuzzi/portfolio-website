@@ -11,10 +11,13 @@ export const projectData = [
             { text: 'achieving a precision of 97.8%.', highlight: true },
             { text: '', break: true },
             { text: '', break: true },
-            { text: 'Built the ', highlight: false },
-            { text: 'backend in Python, ', highlight: true },
-            { text: 'leveraged Roboflow for data preprocessing and augmentation, and contributed to developing a ', highlight: false },
-            { text: 'React-based frontend in JavaScript. ', highlight: true }
+            { text: 'I contributed to building the backend in ', highlight: false },
+            { text: 'Python, ', highlight: true },
+            { text: 'leveraging ', highlight: false },
+            { text: 'Roboflow for data preprocessing and augmentation, ', highlight: true },
+            { text: 'and contributed to building a ', highlight: false },
+            { text: 'React-based frontend in JavaScript.', highlight: true },
+
         ]
     },
     {
@@ -26,13 +29,16 @@ export const projectData = [
         demoUrl: "https://nyc-aqi-predictor.streamlit.app/",
         description: [
             { text: 'Developed a ', highlight: false },
-            { text: 'Python web app with Streamlit ', highlight: true },
-            { text: 'to visualize and predict AQI (Air Quality Index) for NYC neighborhoods.', highlight: false },
+            { text: 'Python web app with Streamlit using NYC OpenData ', highlight: true },
+            { text: 'to visualize, analyze, and predict AQI (Air Quality Index) trends for NYC neighborhoods.', highlight: false },
             { text: '', break: true },
             { text: '', break: true },
             { text: 'Utilized ', highlight: false },
-            { text: 'pandas for data manipulation, geopandas and folium for geospatial mapping, and scikit-learn for machine learning. ', highlight: true },
-            { text: 'The application trains a linear regression model to predict future AQI values.', highlight: false }   
+            { text: 'pandas for data handling ', highlight: true },
+            { text: 'and scikit-learn for machine learning, ', highlight: false },
+            { text: 'achieving ', highlight: false },
+            { text: '97% accuracy.', highlight: true },
+
         ]
     },
     {
