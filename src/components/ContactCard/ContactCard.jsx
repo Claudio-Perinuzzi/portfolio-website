@@ -12,7 +12,7 @@ export const ContactCard = () => {
                         <h1 className={styles.lname}>Perinuzzi</h1>
                     </div>
                     
-                    <p className={styles.description}>I'm an aspiring Software Engineer in the New York Metro Area.</p>
+                    <p className={styles.description}>I'm an aspiring Software/Data Engineer in the New York Metro Area.</p>
                     <p className={styles.contact}>Contact me if you'd like to learn more!</p>
 
                     <div className={styles.buttonContainer}>
