@@ -1,10 +1,10 @@
 export const projectData = [
     {
         projHeader: 'Learn_American_Sign_Language.txt',
-        title: 'Learn-ASL',
+        title: 'Gesture Once',
         time: 'December 2024',
         imgPath: 'asl_demo.gif',
-        ghUrl: 'https://github.com/jaynopponep/Learn-ASL',
+        ghUrl: 'https://github.com/Claudio-Perinuzzi/Gesture-Once',
         demoUrl: false,
         description: [
             { text: 'Collaborated with a team to train and fine-tune an Ultralytics YOLO object detection model for recognizing and classifying ASL (American Sign Language) gestures, ', highlight: false },
