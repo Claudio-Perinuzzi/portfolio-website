@@ -1,5 +1,20 @@
 export const projectData = [
     {
+        projHeader: 'Content_Rediscovery.txt',
+        title: 'C-Sphere',
+        time: 'May 2025',
+        imgPath: 'csphere-home-1.png',
+        ghUrl: 'https://github.com/angvit/Content-Rediscovery-Platform',
+        demoUrl: false,
+        description: [
+            { text: 'Implemented ', highlight: false },
+            { text: 'semantic vector search, embedding-based retrieval, and AI-generated summarization ', highlight: true },
+            { text: 'as part of a ', highlight: false },
+            { text: 'Retrieval-Augmented Generation (RAG) pipeline ', highlight: true },
+            { text: 'for C-Sphere, a full-stack web app and Chrome extension that enables users to rediscover saved bookmarks through intelligent search.', highlight: false },
+        ]
+    },    
+    {
         projHeader: 'Learn_American_Sign_Language.txt',
         title: 'Gesture Once',
         time: 'December 2024',
@@ -17,7 +32,6 @@ export const projectData = [
             { text: 'Roboflow for data preprocessing and augmentation, ', highlight: true },
             { text: 'and contributed to building a ', highlight: false },
             { text: 'React-based frontend in JavaScript.', highlight: true },
-
         ]
     },
     {
@@ -38,7 +52,6 @@ export const projectData = [
             { text: 'and scikit-learn for machine learning, ', highlight: false },
             { text: 'achieving ', highlight: false },
             { text: '97% accuracy.', highlight: true },
-
         ]
     },
     {
