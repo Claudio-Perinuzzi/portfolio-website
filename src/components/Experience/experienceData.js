@@ -50,7 +50,7 @@ export const experienceData = [
             { text: 'Accepted into a ', highlight: false },
             { text: 'highly competitive year-long fellowship ', highlight: true },
             { text: 'where I utilize machine learning and data science techniques such as ', highlight: false },
-            { text: 'data engineering, data visualization, model evaluation and optimization.', highlight: true },
+            { text: 'data engineering, exploratory data analysis (EDA), statistical modeling, data visualization, model evaluation and optimization.', highlight: true },
             { text: '', break: true },
             { text: '', break: true },     
             { text: 'Additionally, I have gained hands-on experience in software engineering practices, including ', highlight: false },
