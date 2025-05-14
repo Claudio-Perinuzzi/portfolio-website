@@ -35,12 +35,13 @@ export const About = () => {
                         Hello, I'm Claudio Perinuzzi! 
                         <br />
                         <br />
-                        I'm a graduate student at Queens College, pursuing a Master's 
-                        in Computer Science, with an expected graduation in May 2025.                        
+                        I am a Clinical Application Software Developer and Data Manager for a private doctor's office, 
+                        with a Master's in Computer Science from Queens College (May 2025). 
                         <br />
-                        <br />
-                        I am passionate about solving real-world challenges and creating 
-                        software that is accessible and impactful. Beyond my academic and 
+                        <br />                        
+                        I enjoy analyzing complex tasks, developing clear workflows, and implementing software solutions that 
+                        streamline operations. I am also passionate about solving real-world challenges 
+                        and creating software that is accessible and impactful. Beyond my academic and 
                         professional life, I enjoy spending time in nature, hiking, 
                         and staying active.
                         <br />
