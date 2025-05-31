@@ -54,9 +54,10 @@ export const experienceData = [
             { text: 'data engineering, exploratory data analysis (EDA), statistical modeling, data visualization, model evaluation and optimization.', highlight: true },
             { text: '', break: true },
             { text: '', break: true },     
-            { text: 'Gained hands-on experience in software engineering practices, including ', highlight: false },
-            { text: 'software design, system architecture, version control, and front-end development with React, ', highlight: true }, 
-            { text: 'to create interactive and dynamic user interfaces.', highlight: false }
+            { text: 'Applied modern ', highlight: false },
+            { text: 'software engineering practices and system design principles ', highlight: true },
+            { text: 'to develop full-stack solutions, utilizing ', highlight: false },
+            { text: 'version control and adhering to the software development lifecycle (SDLC).', highlight: true },
         ],
     },
 ];
