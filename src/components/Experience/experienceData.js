@@ -50,8 +50,8 @@ export const experienceData = [
         description: [
             { text: 'Accepted into a ', highlight: false },
             { text: 'highly competitive year-long data science fellowship ', highlight: true },
-            { text: 'utilizing machine learning and data science techniques such as ', highlight: false },
-            { text: 'data engineering, exploratory data analysis (EDA), statistical modeling, data visualization, model evaluation and optimization.', highlight: true },
+            { text: 'utilizing machine learning and data engineering techniques such as, ', highlight: false },
+            { text: 'exploratory data analysis (EDA), statistical modeling, data visualization, model evaluation and optimization.', highlight: true },
             { text: '', break: true },
             { text: '', break: true },     
             { text: 'Applied modern ', highlight: false },
