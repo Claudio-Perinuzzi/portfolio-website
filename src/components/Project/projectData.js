@@ -74,7 +74,7 @@ export const projectData = [
         demoUrl: "https://social-media-usage-predictor.streamlit.app/",
         description: [
             { text: "Implemented a ", highlight: false },
-            { text: "full-stack web application ", highlight: true },
+            { text: "Python web app with Streamlit ", highlight: true },
             { text: "that predicts social media addiction with ", highlight: false },
             { text: "98% accuracy ", highlight: true },
             { text: "and offers personalized healthy habit recommendations based on user interests and location.", highlight: false },
