@@ -36,14 +36,14 @@ export const About = () => {
                         <br />
                         <br />
                         I am a Clinical Application Software Developer and Data Manager for a private doctor's office, 
-                        with a Master's in Computer Science from Queens College. 
-                        <br />
-                        <br />                        
+                        with a Master's in Computer Science from Queens College.                   
                         I enjoy analyzing complex tasks, developing clear workflows, and implementing software solutions that 
                         streamline operations. I am also passionate about solving real-world challenges 
-                        and creating software that is accessible and impactful. Beyond my academic and 
-                        professional life, I enjoy spending time in nature, hiking, 
-                        and staying active.
+                        and creating software that is accessible and impactful. 
+                        <br />
+                        <br />
+                        Beyond my academic and professional life, I enjoy spending time in nature,
+                        practicing martial arts, hiking, and staying active.
                         <br />
                         <br />
                         Feel free to explore my work below!
