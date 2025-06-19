@@ -12,15 +12,15 @@ export const Education = () => {
                 <div className={styles.schoolContainer}>
                     <img src="QC_Icon.png" alt="QC image" className={styles.schoolImg}/>
                     <div className={styles.degreeDetails}> 
-                        <p className={styles.textContainer}>Master of Arts in Computer Science</p>
-                        <p className={styles.textContainer}>Bachelor of Arts in Computer Science</p>
+                        <p className={styles.textContainer}>Master's in Computer Science</p>
+                        <p className={styles.textContainer}>Bachelor's in Computer Science</p>
                     </div>
                 </div>
 
                 <div className={styles.schoolContainer}>
                     <img src="SBU_Icon.jpg" alt="SBU image" className={styles.schoolImg}/>
                     <div className={styles.degreeDetails}> 
-                        <p className={styles.textContainer}>Bachelor of Science in Biology</p>
+                        <p className={styles.textContainer}>Bachelor's in Biology</p>
                     </div>
                 </div>
 
