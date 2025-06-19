@@ -1,0 +1,55 @@
+@import "../../vars.css";
+
+.interestText {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.postContainer {
+    margin: 20px auto;
+    max-width: 340px; 
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.portfolioPostsSection {
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 0.25s;
+}
+
+.postsSectionHeader {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: rgb(236, 210, 97);
+}
+
+.instagramPostsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); 
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
