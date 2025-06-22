@@ -29,9 +29,9 @@
     text-align: center;
     padding-top: 2px;
     padding-bottom: 2px;
+    margin-bottom: 17px;
     background-color: var(--color-tab);
     border-radius: 5px;
-
 }
 
 .schoolContainer {
