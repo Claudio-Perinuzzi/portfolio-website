@@ -16,8 +16,8 @@
     border-style: solid;
     border-color: white;
     border-width: 0.5px;
-    max-width: 450px;
-    min-width: 280px;
+    max-width: 350px;
+    min-width: 340px;
     width: calc(100% - 100px);
     background-color: var(--color-ide-bg);
     box-sizing: border-box;
@@ -40,7 +40,7 @@
     padding: 15px;
     gap: 15px;
     border-bottom: 0.5px solid var(--color-border);
-    margin-left: auto;
+    margin-left: 30px;
     margin-right: auto;
     opacity: 0; 
     animation: fadeIn 1s ease-in-out forwards; 
@@ -53,7 +53,7 @@
     padding: 0;
     font-size: 14px;
     width: 250px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .degreeDetails {
