@@ -4,7 +4,7 @@ export const experienceData = [
         title: 'Software Application Developer/Analyst',
         time: 'May 2016 - Present',
         description: [
-            { text: 'Develop, deploy and maintain custom ', highlight: false },
+            { text: 'Develop, test, deploy and maintain custom ', highlight: false },
             { text: 'Python software applications that seamlessly integrate with EMR systems, ', highlight: true },
             { text: 'automating critical clinical workflows ', highlight: true },
             { text: '(e.g. patient directory creation, intake distribution, billing, secure file encryption) and significantly improving operational efficiency by saving clinical staff ', highlight: false },
@@ -28,7 +28,7 @@ export const experienceData = [
             { text: '', break: true },
             { text: '', break: true },
             { text: "Led the successful reorganization of the company's file structure, significantly improving data retrieval and storage efficiency by ", highlight: false },
-            { text: '2x and directly contributing to increased clinical productivity.', highlight: true },
+            { text: '2x and directly contributing to increased clinical productivity.', highlight: true }
         ]
     },
     {
