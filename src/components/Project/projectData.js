@@ -14,7 +14,7 @@ export const projectData = [
             { text: 'and helps users rediscover saved bookmarks through advanced search capabilities.', highlight: false },
             { text: '', break: true },
             { text: '', break: true },            
-            { text: 'Engingeered a ', highlight: false },
+            { text: 'Engineered a ', highlight: false },
             { text: 'Retrieval-Augmented Generation (RAG) ', highlight: true },
             { text: 'backend pipeline by combining ', highlight: false },
             { text: 'intelligent content summarization, semantic vector search, and embedding-based storage/retrieval using PostgreSQL, ', highlight: true },
