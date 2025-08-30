@@ -35,7 +35,7 @@ export const About = () => {
                         Hello, I'm Claudio Perinuzzi! 
                         <br />
                         <br />
-                        I am a Software Application Developer/Analyst for a private doctor's office, 
+                        I am a Software Application Analyst/Programmer for a private doctor's office, 
                         with a Master's in Computer Science from Queens College.                   
                         I enjoy analyzing complex tasks, developing clear workflows, and implementing software solutions that 
                         streamline operations. I am also passionate about solving real-world challenges 
