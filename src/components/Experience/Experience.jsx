@@ -10,6 +10,7 @@ export const Experience = ({ experiences }) => {
                     <div className={styles.tabHeader}>{exp.fileName}</div>
                     <div className={styles.textContainer}>
                         <div className={styles.roleContainer}>
+                            <img src={exp.logo} alt="Logo Image" className={styles.imgContainer} />
                             <span className={styles.role}>Title: </span>
                             <span className={styles.roleTitle}>{exp.title}</span>
                             <span className={styles.time}>{exp.time}</span>
