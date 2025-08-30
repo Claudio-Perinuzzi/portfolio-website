@@ -23,6 +23,18 @@
     box-sizing: border-box; 
 }
 
+.imgContainer {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    border-radius: 10px;
+    padding: 3px; 
+    flex-shrink: 0;
+    box-sizing: content-box; 
+    margin-left: 10px;     
+    margin-right: auto;
+}
+
 .tabHeader {
     color: white;
     font-size: 15px;
@@ -46,17 +58,23 @@
     justify-content: space-between; 
     width: 100%;                
     align-items: center;
+    /* gap: 10px; */
     opacity: 0;
     animation: fadeIn 1s ease-in-out forwards;       
 }
 
 .role {
     color: rgb(193, 126, 223);
+    margin-left: auto;     
+    padding-left: 15px;  
 }
 
 .roleTitle {
     color: rgb(111, 161, 221);
     padding-left: 3px;
+    margin-right: auto;     
+    padding-right: 5px;  
+
 }
 
 .time {
