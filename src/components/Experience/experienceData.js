@@ -2,7 +2,7 @@ export const experienceData = [
     {
         fileName: 'East_End_Hand_Surgery.txt',
         logo: 'eehs_logo.png',
-        title: 'Software Application Analyst/Programmer',
+        title: 'Software Application Analyst & Programmer',
         time: 'May 2016 - Present',
         description: [
             { text: 'Design, build, implement, test and modify custom ', highlight: true },
