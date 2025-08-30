@@ -1,7 +1,7 @@
 export const experienceData = [
     {
         fileName: 'East_End_Hand_Surgery.txt',
-        logo: 'public/eehs_logo.png',
+        logo: 'eehs_logo.png',
         title: 'Software Application Analyst/Programmer',
         time: 'May 2016 - Present',
         description: [
@@ -58,7 +58,7 @@ export const experienceData = [
     },
     {
         fileName: 'Data_Annotation_Tech.txt',
-        logo: 'public/DA_logo.svg',
+        logo: 'DA_logo.svg',
         title: 'ML Specialist - LLM Training & Debugging',
         time: 'April 2024 - Present',
         description: [
@@ -81,7 +81,7 @@ export const experienceData = [
     },    
     {
         fileName: 'CUNY_Tech_Prep.txt',
-        logo: 'public/CTP_logo.png',
+        logo: 'CTP_logo.png',
         title: 'Data Science & Software Engineer Fellow',
         time: 'July 2024 - May 2025',
         description: [
