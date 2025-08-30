@@ -31,7 +31,6 @@
     padding: 3px; 
     flex-shrink: 0;
     box-sizing: content-box; 
-    margin-left: 10px;     
     margin-right: auto;
 }
 
@@ -66,7 +65,7 @@
 .role {
     color: rgb(193, 126, 223);
     margin-left: auto;     
-    padding-left: 15px;  
+    padding-left: 10px;  
 }
 
 .roleTitle {
