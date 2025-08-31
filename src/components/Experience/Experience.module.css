@@ -24,14 +24,12 @@
 }
 
 .imgContainer {
-    width: 65px;
-    height: 65px;
-    object-fit: contain;
+    width: 85px;
+    height: 85px;
+    object-fit: fill;
     border-radius: 10px;
-    padding: 3px; 
     flex-shrink: 0;
     box-sizing: content-box; 
-    margin-right: auto;
 }
 
 .tabHeader {
@@ -50,36 +48,46 @@
     border-radius: 5px;
     padding-bottom: 15px;
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
 }
 
 .roleContainer {
     display: flex;              
-    justify-content: space-between; 
+    justify-content: center; 
     width: 100%;                
     align-items: center;
-    /* gap: 10px; */
+    gap: 10px;
     opacity: 0;
     animation: fadeIn 1s ease-in-out forwards;       
 }
 
+.textGroup { 
+    display: flex;
+    flex-direction: column; 
+}
+
+.titleGroup {
+    display: flex; 
+    align-items: center; 
+}
+
+
 .role {
     color: rgb(193, 126, 223);
-    margin-left: auto;     
     padding-left: 10px;  
 }
 
 .roleTitle {
     color: rgb(111, 161, 221);
     padding-left: 3px;
-    margin-right: auto;     
     padding-right: 5px;  
-
 }
 
 .time {
     color: rgb(241, 209, 71);
-    margin-left: auto;     
-    margin-right: 10px;      
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .description {
