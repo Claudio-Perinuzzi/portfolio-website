@@ -1,9 +1,18 @@
 export const experienceData = [
     {
+        fileName: 'Steris.txt',
+        logo: 'steris_logo.svg',
+        title: 'Software Integration Engineer',
+        time: 'October 2025 - Present',
+        description: [
+            { text: 'In Progress!', highlight: false },
+        ]
+    },
+    {
         fileName: 'East_End_Hand_Surgery.txt',
         logo: 'eehs_logo.png',
         title: 'Software Application Analyst & Programmer',
-        time: 'May 2016 - Present',
+        time: 'May 2016 - October 2025',
         description: [
             { text: 'Design, build, implement, test and modify custom ', highlight: true },
             { text: 'graphical user interfaces (GUIs) written in Python that seamlessly integrate with EMR systems ', highlight: false },
@@ -59,7 +68,7 @@ export const experienceData = [
         fileName: 'Data_Annotation_Tech.txt',
         logo: 'DA_logo.svg',
         title: 'ML Specialist - LLM Training & Debugging',
-        time: 'April 2024 - Present',
+        time: 'April 2024 - October 2025',
         description: [
             { text: 'Apply', highlight: false },
             { text: ' Reinforcement Learning from Human Feedback (RLHF)', highlight: true },
