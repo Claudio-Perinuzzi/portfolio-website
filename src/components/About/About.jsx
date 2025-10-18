@@ -35,8 +35,8 @@ export const About = () => {
                         Hello, I'm Claudio Perinuzzi! 
                         <br />
                         <br />
-                        I am a Software Application Analyst/Programmer for a private doctor's office, 
-                        with a Master's in Computer Science from Queens College.                   
+                        I am currently a Software Integration Engineer at STERIS with a Master's Degree in Computer Science.
+                        I have previously worked as a Software Application Developer/Analyst for East End Hand Surgery for over 9 years. 
                         I enjoy analyzing complex tasks, developing clear workflows, and implementing software solutions that 
                         streamline operations. I am also passionate about solving real-world challenges 
                         and creating software that is accessible and impactful. 
