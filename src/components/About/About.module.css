@@ -90,10 +90,10 @@
     margin-top: 10px;
     animation: fadeIn 1s ease-in-out forwards;
     animation-delay: 1s; 
-    font-size: 19px;
-    color: rgb(98, 212, 138);
+    font-size: 18px;
+    color: rgb(98, 212, 210);
     padding-bottom: 5px;  
-    text-align: center;
+    text-align: left;
 }
 
 @keyframes fadeIn {
