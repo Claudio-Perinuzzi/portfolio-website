@@ -4,7 +4,7 @@ import styles from './ContactCard.module.css';
 export const ContactCard = () => {
     return (
         <section className={styles.contactContainer}>
-            <img src="headshot_square.png" alt="Image of me" className={styles.contactImg}/>
+            <img src="headshot.png" alt="Image of me" className={styles.contactImg}/>
                 
                 <div className={styles.textContainer}>
                     <div className={styles.nameContainer}>
@@ -12,7 +12,7 @@ export const ContactCard = () => {
                         <h1 className={styles.lname}>Perinuzzi</h1>
                     </div>
                     
-                    <p className={styles.description}>I'm a Software Application Analyst/Programmer</p>
+                    <p className={styles.description}>I'm a <span style={{color: 'rgb(98, 212, 138)'}}>Software Integration Engineer</span> at <span style={{color: 'rgb(111, 161, 221)'}}>STERIS</span></p>                    
                     <p className={styles.contact}>Contact me if you'd like to learn more!</p>
 
                     <div className={styles.buttonContainer}>
