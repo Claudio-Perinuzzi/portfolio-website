@@ -1,11 +1,19 @@
 @import "../../vars.css";
 
-.projectsHeader {
+.projectHeader {
     font-size: 30px;
     margin-top: 60px;
     margin-bottom: 35px;
     text-align: center;
     color: rgb(98, 212, 138);
+    opacity: 0; 
+    transform: translateY(35px); 
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.projectHeader.is_visible {
+    opacity: 1; 
+    transform: translateY(0); 
 }
 
 .windowContainer {
@@ -21,6 +29,14 @@
     min-width: 280px;
     width: calc(100% - 100px); 
     box-sizing: border-box; 
+    opacity: 0; 
+    transform: translateY(35px); 
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.windowContainer.is_visible {
+    opacity: 1;
+    transform: translateY(0); 
 }
 
 .tabHeader {
