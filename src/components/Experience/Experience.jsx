@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Experience.module.css';
+import { useScrollFadeIn } from '../../hooks/useScrollFadeIn';
 
 function displayLogo(exp) {
     if (exp.fileName.includes("Steris.txt")) {
@@ -70,15 +71,26 @@ function displayText(desc, idx, startOfBullet) { // Creates breaks or highlighte
 }
 
 export const Experience = ({ experiences }) => {
+
+    // For the education header
+    const { ref: headerRef, isVisible: headerVisible } = useScrollFadeIn(0.05);
+    const headerClasses = `${styles.experienceHeader} ${headerVisible ? styles.is_visible : ''}`;
+
     return (
-        <section id="experience">
-            <h1 className={styles.experienceHeader}>Experience</h1>
+        <section id="experience">      
+            
+            <h1 ref={headerRef} className={headerClasses}>Experience</h1>         
+
             {experiences.map((exp, index) => {
+                
+                // For the different jobs items
+                const { ref: itemRef, isVisible: itemVisible } = useScrollFadeIn(0.1 + index * 0.05);
+                const itemClasses = `${styles.windowContainer} ${itemVisible ? styles.is_visible : ''}`;
                 
                 let startOfBullet = {value: true}; // Pass by ref
                 
                 return (
-                    <div className={styles.windowContainer} key={index}>
+                    <div className={itemClasses} key={index} ref={itemRef}>
                         <div className={styles.tabHeader}>{exp.fileName}</div>
                         <div className={styles.textContainer}>
                             <div className={styles.roleContainer}>
