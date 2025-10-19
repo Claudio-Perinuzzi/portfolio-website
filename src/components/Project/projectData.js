@@ -4,7 +4,7 @@ export const projectData = [
         title: 'C-Sphere',
         time: 'May 2025',
         imgPath: 'csphere-home-1.png',
-        ghUrl: 'https://github.com/angvit/Content-Rediscovery-Platform',
+        ghUrl: 'https://github.com/Claudio-Perinuzzi/Csphere',
         demoUrl: false,
         description: [
             { text: 'Collaborated with a ', highlight: false },
