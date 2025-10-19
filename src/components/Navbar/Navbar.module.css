@@ -8,7 +8,7 @@
     padding-bottom: 10px;
     border-bottom: 1px solid #ddd;
     background-color: var(--color-ide-bg);
-    animation: slideIn 0.5s ease-in-out;
+    animation: slideIn 1s ease-in-out;
 }
 
 @keyframes slideIn {
