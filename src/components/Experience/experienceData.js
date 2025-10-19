@@ -5,7 +5,16 @@ export const experienceData = [
         title: 'Software Integration Engineer',
         time: 'October 2025 - Present',
         description: [
-            { text: 'In Progress!', highlight: false },
+            { text: 'Integrate, test and deploy ', highlight: true },
+            { text: 'STERIS enterprise software products and features within ', highlight: false },
+            { text: 'hospital enterprise networks, ', highlight: true },
+            { text: 'including configuring virtualized solutions and consulting on complex IT environments.', highlight: false },
+            { text: '', break: true },
+            { text: 'Configure, install, monitor, and support ', highlight: true },
+            { text: 'multiple customer facilities using STERIS enterprise software products.', highlight: false },
+            { text: '', break: true },
+            { text: 'Manage full software integration projects ', highlight: true },
+            { text: 'with customer, internal, and external partners.', highlight: false },
         ]
     },
     {
