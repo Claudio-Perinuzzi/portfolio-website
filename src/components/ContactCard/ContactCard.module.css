@@ -1,5 +1,14 @@
 @import "../../vars.css";
 
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
 .contactContainer {
     display: flex;
     flex-direction: row;
@@ -24,7 +33,7 @@
     width: 45%;
     max-width: 300px;
     min-width: 240px;
-    transition: all 0.3s ease; 
+    animation: fadeIn 1.25s ease-in-out forwards; 
 }
 
 .nameContainer {
@@ -32,27 +41,25 @@
     gap: 10px;
     text-align: center;
     justify-content: center;
-    transition: all 0.3s ease; 
+    animation: fadeIn 1.75s ease-in-out forwards; 
 }
 
 .fname {
     color: var(--color-primary-text);
-    transition: all 0.3s ease; 
 }
 
 .lname {
     color: var(--color-secondary-text);
-    transition: all 0.3s ease; 
 }
 
 .description {
     color: var(--color-primary-text);
-    transition: all 0.3s ease; 
+    animation: fadeIn 2.25s ease-in-out forwards; 
 }
 
 .contact {
     color: var(--color-primary-text);
-    transition: all 0.3s ease; 
+    animation: fadeIn 2.75s ease-in-out forwards; 
 }
 
 .buttonContainer,
@@ -61,6 +68,7 @@
     display: flex;
     justify-content: center;
     gap: 15px; 
+        animation: fadeIn 3.5s ease-in-out forwards; 
 }
 
 .resumeContainer {
