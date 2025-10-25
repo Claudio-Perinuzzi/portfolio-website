@@ -7,9 +7,10 @@ import { Experience } from "./components/Experience/Experience";
 import { Project } from "./components/Project/Project";
 import { Footer } from "./components/Footer/Footer";
 import { Posts } from "./components/Posts/Posts";
-
 import { experienceData } from './components/Experience/experienceData';
 import { projectData } from './components/Project/projectData';
+import { Achievements } from './components/Achievements/Achievements';
+import { achievementData } from './components/Achievements/achievementData';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Education />
       <Experience  experiences={experienceData}/>
       <Project projects={projectData}/>
+      <Achievements achievements={achievementData}/>
       <Posts />
       <Footer />
     </div>
