@@ -8,7 +8,8 @@
     --color-tertiary-text: rgb(63, 124, 255);
     --color-nav-bg: rgb(38, 38, 38);
 
-    --color-tab: rgb(53, 55, 60);
+    --color-tab: rgb(39, 41, 45);
     --color-ide-bg: rgb(21, 26, 33);
+    --color-ide-bg2: rgb(15, 18, 26);
     --color-terminal-bg: rgb(17, 17, 17);
 }
