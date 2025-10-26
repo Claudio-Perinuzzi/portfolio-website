@@ -1,27 +1,73 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import styles from './Achievements.module.css';
+import { useScrollFadeIn } from '../../hooks/useScrollFadeIn';
 
-export const Achievements = () => {
+export const Achievements = ( {achievements} ) => {
 
-    // return (
-    //     <section className={styles.portfolioPostsSection} id="interests">
-    //         <h2 className={styles.postsSectionHeader}>Interests</h2>
+    // For the achievement header
+    const { ref: headerRef, isVisible: headerVisible } = useScrollFadeIn(0.05);
+    const headerClasses = `${styles.achievementHeader} ${headerVisible ? styles.is_visible : ''}`;
 
-    //         <p className={styles.interestText}>
-    //             Much of my discipline and personal success stems from my long-standing practice of martial arts.  
-    //             I hold a 2nd-degree rank from Alan Lee's Chinese Kung-Fu Wu-Su Association 
-    //             (<a href="https://kungfuwusu.com/" target="_blank" rel="noopener noreferrer">kungfuwusu.com</a>) and have had the privilege of teaching this rich and powerful art form.  
-    //             Here are a few related posts showcasing my journey and some personal interests of mine:
-    //         </p>
+    // Helper function to render descriptions 
+    const renderDescription = (description) => {
+        return (
+            <>
+            <br />
+            <p className={styles.description}>
+                {description.map((desc, idx) => 
+                    desc.break 
+                        ? (<br key={idx} />) 
+                        : (<span key={idx} className={desc.highlight ? styles.highlight : undefined}>{desc.text}</span>)
+                )}
+            </p>
+            <br />
+            </>
+        );
+    };
 
-    //         <div className={styles.instagramPostsGrid}>
-    //             {posts.map(post => (
-    //                 <SingleInstagramEmbed // Render the helper component for each post
-    //                     key={post.id}
-    //                     embedHtml={post.embedHtml} 
-    //                 />
-    //             ))}
-    //         </div>
-    //     </section>
-    // );
+    // Helper function to render the title/time block for a single certification entry
+    const renderAchievementEntry = (entry, indexKey) => (
+        <React.Fragment key={indexKey}>
+            <div className={styles.achievementContainer}>
+                <span className={styles.achievement}>Achievement: </span>
+                <span className={styles.achievementTitle}>{entry.title}</span>
+                <span className={styles.time}>{entry.time}</span>
+            </div>
+            {renderDescription(entry.description)}
+        </React.Fragment>
+    );
+
+    return (
+        <section id="achievements">
+            <h1 ref={headerRef} className={headerClasses}>Achievements</h1>         
+            
+            {achievements.map((ach, index) => {
+
+                const { ref: itemRef, isVisible: itemVisible } = useScrollFadeIn(0.1 + index * 0.05);
+                const itemClasses = `${styles.windowContainer} ${itemVisible ? styles.is_visible : ''}`;
+
+                return (
+                    <div className={itemClasses} key={index} ref={itemRef}>                    
+                        <div className={styles.tabHeader}>{ach.achHeader}</div>
+                        <div className={styles.textContainer}>
+                            <a href={ach.url}>
+                                <img className={styles.img} src={ach.imgPath} alt="image for achievement"/>
+                            </a>
+
+                            {ach.certifications && ach.certifications.length > 0 ? (
+                                ach.certifications.map((cert, certIndex) => (
+                                    renderAchievementEntry(cert, `${index}-${certIndex}`)
+                                ))
+                            ) : (
+                                <>
+                                    {renderAchievementEntry(ach, index)}
+                                </>
+                            )}
+                        </div>
+                    </div>
+                );
+            })}
+        </section>
+    )
+
 };
