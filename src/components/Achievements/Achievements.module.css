@@ -1,49 +1,94 @@
 @import "../../vars.css";
 
-/* .interestText {
-    font-size: 18px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    padding-right: 50px;
-    padding-left: 50px;
-}
-
-.postContainer {
-    margin: 20px auto;
-    max-width: 340px; 
-    width: 100%;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.portfolioPostsSection {
-    margin-top: 60px;
-    padding: 20px;
-    text-align: center;
-    opacity: 0;
-    animation: fadeIn 2s ease-in-out forwards;
-    animation-delay: 0.25s;
-}
-
-.postsSectionHeader {
+.achievementHeader {
     font-size: 30px;
-    margin-bottom: 40px;
-    color: rgb(236, 210, 97);
+    margin-top: 60px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: rgb(248, 74, 68);
+    opacity: 0; 
+    transform: translateY(35px); 
+    transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
-.instagramPostsGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); 
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px;
-} */
+.achievementHeader.is_visible {
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+.windowContainer {
+    margin: 20px auto; 
+    margin-bottom: 60px;
+    background-color: var(--color-tab);
+    border-radius: 5px;
+    font-size: 12.5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.5px;
+    max-width: 520px; 
+    min-width: 280px;
+    width: calc(100% - 100px); 
+    box-sizing: border-box; 
+    opacity: 0; 
+    transform: translateY(35px); 
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.windowContainer.is_visible {
+    opacity: 1;
+    transform: translateY(0); 
+}
+
+.tabHeader {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.textContainer {
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: var(--color-ide-bg2);
+    border-radius: 5px;
+    padding-bottom: 2px;
+    font-size: 14px;
+}
+
+.achievementContainer {
+    display: flex;              
+    justify-content: space-between; 
+    width: 100%;                
+    align-items: center;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;       
+}
+
+.achievement {
+    color: rgb(193, 126, 223);
+}
+
+.achievementTitle {
+    color: rgb(111, 161, 221);
+    padding-left: 3px;
+}
+
+.time {
+    color: rgb(241, 209, 71);
+    margin-left: auto;     
+    margin-right: 10px;      
+}
+
+.description {
+    text-align: left;
+    opacity: 0;
+    padding-right: 10px;
+    padding-left: 30px;
+    animation: fadeIn 1s ease-in-out forwards;
+    font-size: 15px;
+}
 
 @keyframes fadeIn {
     from {
@@ -53,3 +98,23 @@
       opacity: 1;
     }
 }
+
+.highlight {
+    color: rgb(98, 212, 138);
+    padding: 2px;
+}
+
+.img {
+    max-width: 30%; 
+    display: block;
+    margin: 0 auto; 
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.img:hover {  
+  transform: scale(1.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
