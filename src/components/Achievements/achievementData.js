@@ -1,7 +1,7 @@
 export const achievementData = [
     {
         achHeader: 'Scholarships.txt',
-        title: 'Academic Achievement Scholarship',
+        title: 'Academic Scholarship',
         time: '2025',
         imgPath: 'QC_Icon.svg',
         url: 'https://www.qc.cuny.edu/',
