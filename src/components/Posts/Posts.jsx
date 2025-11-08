@@ -1,12 +1,13 @@
 import React, { useEffect } from 'react';
 import styles from './Posts.module.css';
-import { posts, instagramEmbedScriptUrl } from './postData'; 
+import { posts, instagramEmbedScriptUrl } from './postData';
+import { useScrollFadeIn } from '../../hooks/useScrollFadeIn';
 
 // --- Configuration Variables ---
 // Define the URL for the Elfsight script (moved outside the component for clarity)
 const elfsightScriptUrl = "https://elfsightcdn.com/platform.js"; 
 
-// Helper component to render a single Instagram embed (Keep this for the native embeds)
+// Helper component to render a single Instagram embed (LEGACY - Keep this for the native embeds)
 const SingleInstagramEmbed = ({ embedHtml }) => {
     const createMarkup = () => {
         return { __html: embedHtml };
@@ -64,8 +65,12 @@ export const Posts = () => {
         
     }, []); // Run only once on component mount
 
+    // Applied to the whole section
+    const { ref: headerRef, isVisible: headerVisible } = useScrollFadeIn(0.05);
+    const headerClasses = `${styles.portfolioPostsSection} ${headerVisible ? styles.is_visible : ''}`;
+
     return (
-        <section className={styles.portfolioPostsSection} id="interests">
+        <section ref={headerRef} className={headerClasses} id="interests">
             <h2 className={styles.postsSectionHeader}>Interests</h2>
 
             <p className={styles.interestText}>
