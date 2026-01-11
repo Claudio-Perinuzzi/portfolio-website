@@ -43,7 +43,7 @@
 }
 
 .terminalHeader {
-    font-family: "Courier New", Courier, monospace; 
+    font-family: 'Cascadia Code', 'Cascadia Mono', monospace;
     color: white;
     padding-left: 15px;
     padding-top: 2px;
@@ -57,7 +57,7 @@
 }
 
 .terminal {
-    font-family: "Courier New", Courier, monospace; 
+    font-family: 'Cascadia Code', 'Cascadia Mono', monospace;
     background-color: var(--color-terminal-bg);
     color: var(--color-secondary-text);
     padding-top: 5px;
@@ -68,8 +68,8 @@
     padding-bottom: 10px;
 }
 
-.pythonCommand {
-    font-family: "Courier New", Courier, monospace; 
+.bashCommand {
+    font-family: 'Cascadia Code', 'Cascadia Mono', monospace;
     display: inline-flex;
     overflow: hidden;
     white-space: nowrap;
@@ -78,6 +78,7 @@
     border-right: 1px solid #686a68;
     animation: typing 1s steps(15, end), blink 1s step-end infinite;
     animation-delay: .8s, 2s;
+    color: rgb(218, 213, 213);
 }
 
 @keyframes typing {
@@ -103,10 +104,16 @@
     margin-top: 10px;
     animation: fadeIn 1s ease-in-out forwards;
     animation-delay: 2.5s; 
-    font-size: 18px;
+    font-size: 17px;
     color: rgb(98, 212, 210);
     padding-bottom: 5px;  
     text-align: left;
+    font-family: 'Cascadia Code', 'Cascadia Mono', monospace;
+}
+
+.userTerminal {
+    color: #8ae234;
+    font-size: 15px;
 }
 
 @keyframes fadeIn {
