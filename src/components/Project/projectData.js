@@ -6,6 +6,7 @@ export const projectData = [
         imgPath: 'csphere-home-1.png',
         ghUrl: 'https://github.com/Claudio-Perinuzzi/Csphere',
         demoUrl: false,
+        download: false,
         description: [
             { text: 'Collaborated with a ', highlight: false },
             { text: 'team of 3 ', highlight: true },
@@ -28,6 +29,7 @@ export const projectData = [
         imgPath: 'asl_demo.gif',
         ghUrl: 'https://github.com/Claudio-Perinuzzi/Gesture-Once',
         demoUrl: false,
+        download: false,
         description: [
             { text: 'Collaborated with a ', highlight: false },
             { text: 'team of 3 ', highlight: true },
@@ -50,6 +52,7 @@ export const projectData = [
         imgPath: 'aqi_img.png',
         ghUrl: 'https://github.com/Claudio-Perinuzzi/nyc-air-quality-heat-map-predictor',
         demoUrl: "https://nyc-aqi-predictor.streamlit.app/",
+        download: false,
         description: [
             { text: 'Developed a ', highlight: false },
             { text: 'Python web app with Streamlit using NYC OpenData ', highlight: true },
@@ -72,6 +75,7 @@ export const projectData = [
         imgPath: 'smup_img.png',
         ghUrl: 'https://github.com/Claudio-Perinuzzi/MindfulNet-AI',
         demoUrl: "https://claudio-perinuzzi.github.io/MindfulNet-AI/",
+        download: false,
         description: [
             { text: "Implemented a ", highlight: false },
             { text: "full stack web application using React ", highlight: true },
@@ -87,11 +91,12 @@ export const projectData = [
     },
     {
         projHeader: 'PDF_Encrypt.txt',
-        title: 'PDF Encrypt',
-        time: 'July 2023',
-        imgPath: 'pdf_encrypt.png',
+        title: 'DropLock PDF',
+        time: 'July 2023 - 2026',
+        imgPath: 'windows_droplock.png',
         ghUrl: 'https://github.com/Claudio-Perinuzzi/encrypt-pdf',
         demoUrl: false,
+        download: 'https://github.com/Claudio-Perinuzzi/DropLock-PDF/releases/tag/v1.0.0',
         description: [
             { text: "Developed a  ", highlight: false },
             { text: "Python-based ", highlight: true },
