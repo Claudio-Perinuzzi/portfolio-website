@@ -23,7 +23,7 @@ export const Footer = () => {
                                 </button>
                             </a>
                         </div>
-                        © Claudio Perinuzzi 2025                        
+                        © Claudio Perinuzzi 2025-{new Date().getFullYear()}               
                     </div>
             </div>                
         </section>
