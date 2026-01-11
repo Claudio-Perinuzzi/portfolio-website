@@ -7,8 +7,8 @@ export const About = () => {
             <h1 className={styles.aboutHeader}>About</h1>
             <div className={styles.windowContainer}>
                 {/* Old Legacy Python Terminal Commented out */}
-                {/* <div className={styles.ideContainer}>
-                    <span className={styles.import}>from</span>{" "}
+                {/* <div className={styles.ideContainer}> */}
+                    {/* <span className={styles.import}>from</span>{" "}
                     <span className={styles.variable}>about</span>{" "}
                     <span className={styles.import}>import</span>{" "}
                     <span className={styles.function}>me</span> 
@@ -22,11 +22,11 @@ export const About = () => {
                     <span className={styles.function}>print</span>
                     <span className={styles.parenthesis}> (</span>
                     <span className={styles.variable}>myself</span>
-                    <span className={styles.parenthesis}>)</span>
-                </div> */}
+                    <span className={styles.parenthesis}>)</span> */}
+                {/* </div> */}
                 <div className={styles.terminalHeader}>Terminal - bash</div>
                 <div className={styles.terminal}>
-                    Last login: {new Date().toString()}<br />
+                    Last login: {new Date().toLocaleString('en-US', { dateStyle: 'short', timeStyle: 'short' })}<br />
                     <span className={styles.userTerminal}>cp@localhost</span>
                     :~$
                     {/* cp ~ %  */}

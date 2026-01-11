@@ -36,7 +36,7 @@
 
 .tabHeader {
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -44,12 +44,16 @@
 
 .terminalHeader {
     font-family: 'Cascadia Code', 'Cascadia Mono', monospace;
+    font-size: 14px;
     color: white;
     padding-left: 15px;
     padding-top: 2px;
     padding-bottom: 2px;
     background-color: rgb(19, 19, 20);
-    border-style: solid;
+    /* border-style: solid; */
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: 1px solid gray;
     border-width: 1px;
     border-right: 0px;
     border-left: 0px;
@@ -58,6 +62,7 @@
 
 .terminal {
     font-family: 'Cascadia Code', 'Cascadia Mono', monospace;
+    font-size: 14px;
     background-color: var(--color-terminal-bg);
     color: var(--color-secondary-text);
     padding-top: 5px;
@@ -70,6 +75,7 @@
 
 .bashCommand {
     font-family: 'Cascadia Code', 'Cascadia Mono', monospace;
+    font-size: 14px;
     display: inline-flex;
     overflow: hidden;
     white-space: nowrap;
@@ -104,7 +110,7 @@
     margin-top: 10px;
     animation: fadeIn 1s ease-in-out forwards;
     animation-delay: 2.5s; 
-    font-size: 17px;
+    font-size: 16px;
     color: rgb(98, 212, 210);
     padding-bottom: 5px;  
     text-align: left;
