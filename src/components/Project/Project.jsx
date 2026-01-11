@@ -50,6 +50,12 @@ export const Project = ( {projects} ) => {
                                         <button className={styles.button}>Live Demo</button>
                                     </a>
                                 )}
+                                {/* Render Download if Link Exists */}
+                                {proj.download && (
+                                    <a href={proj.download} target="_blank" rel="noopener noreferrer">
+                                        <button className={styles.button}>Download</button>
+                                    </a>
+                                )}
                             </div>
                         </div>
                     </div>   
