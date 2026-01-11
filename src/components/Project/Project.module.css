@@ -59,7 +59,7 @@
 
 .projectContainer {
     display: flex;              
-    justify-content: space-between; 
+    justify-content: space-left; 
     width: 100%;                
     align-items: center;
     opacity: 0;
