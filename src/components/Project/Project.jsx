@@ -27,7 +27,9 @@ export const Project = ( {projects} ) => {
                                 <span className={styles.time}>{proj.time}</span>                            
                             </div>
                             <br />
-                                <img className={styles.img} src={proj.imgPath} alt="ASL Demo GIF"/>
+                                <a href={proj.ghUrl} target="_blank" rel="noopener noreferrer" className={styles.imgContainer}>
+                                    <img className={styles.img} src={proj.imgPath} alt="Project Image"/>
+                                </a>
                             <br />
 
                             {/* Creates breaks or highlighted text based on project data */}
