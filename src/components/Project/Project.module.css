@@ -68,17 +68,20 @@
 
 .project {
     color: rgb(193, 126, 223);
+    font-size: 16px;
 }
 
 .projectTitle {
     color: rgb(111, 161, 221);
     padding-left: 3px;
+    font-size: 16px;
 }
 
 .time {
     color: rgb(241, 209, 71);
     margin-left: auto;     
-    margin-right: 10px;      
+    margin-right: 10px;    
+    font-size: 16px;
 }
 
 .description {
@@ -103,15 +106,25 @@
     padding: 2px;
 }
 
-.img {
+.imgContainer {
     max-width: 60%; 
     display: block;
     margin: 0 auto; 
+    overflow: hidden; /* This keeps the zoom inside the borders */
     border-radius: 8px; 
-    border-style: solid;
-    border-width: 1px;
-    color: rgb(84, 84, 84);
+    border: 1px solid rgb(84, 84, 84);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    text-decoration: none; /* Removes underline from the link */
+}
+
+.img {
+    width: 100%; 
+    display: block;
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.imgContainer:hover .img {
+    transform: scale(1.015);
 }
 
 a {
