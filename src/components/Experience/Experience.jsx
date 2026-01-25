@@ -72,7 +72,7 @@ function displayText(desc, idx, startOfBullet) { // Creates breaks or highlighte
 
 export const Experience = ({ experiences }) => {
 
-    // For the education header
+    // For the experience header
     const { ref: headerRef, isVisible: headerVisible } = useScrollFadeIn(0.05);
     const headerClasses = `${styles.experienceHeader} ${headerVisible ? styles.is_visible : ''}`;
 
@@ -90,27 +90,31 @@ export const Experience = ({ experiences }) => {
                 let startOfBullet = {value: true}; // Pass by ref
                 
                 return (
-                    <div className={itemClasses} key={index} ref={itemRef}>
-                        <div className={styles.tabHeader}>{exp.fileName}</div>
-                        <div className={styles.textContainer}>
-                            <div className={styles.roleContainer}>
-                                {displayLogo(exp)}
-                                <div className={styles.textGroup}>
-                                    <div className={styles.titleGroup}> 
-                                        <span className={styles.role}>Title: </span>
-                                        <span className={styles.roleTitle}>{exp.title}</span>
-                                    </div>
-                                    <span className={styles.time}>{exp.time}</span>
-                                </div>
-                            </div>
-                            <br />
-                            <p className={styles.description}>
-                                {exp.description.map((desc, idx) => {
-                                    return displayText(desc, idx, startOfBullet)
-                                })}
-                            </p>
+                <div className={itemClasses} key={index} ref={itemRef}>
+                    <div className={styles.tabHeader}>{exp.fileName}</div>
+                    <div className={styles.textContainer}>
+                        
+                        {/* WRAP THE LOGO HERE */}
+                        <div className={styles.logoWrapper}>
+                            {displayLogo(exp)}
                         </div>
+
+                        <div className={styles.infoGroup}>
+                            <div>
+                                <span className={styles.role}>Title: </span>
+                                <span className={styles.roleTitle}>{exp.title}</span>
+                            </div>
+                            <span className={styles.time}>{exp.time}</span>
+                        </div>
+                        
+                        <br />
+                        <p className={styles.description}>
+                            {exp.description.map((desc, idx) => {
+                                return displayText(desc, idx, startOfBullet)
+                            })}
+                        </p>
                     </div>
+                </div>
                 );
             })}
         </section>
