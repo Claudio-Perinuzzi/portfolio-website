@@ -27,7 +27,7 @@ function displayLogo(exp) {
     else if (exp.fileName.includes("East_End_Hand_Surgery.txt")) {
         return ( 
             <a href="https://www.linkedin.com/company/east-end-hand-surgery/about/" target="_blank" rel="noopener noreferrer">
-                <img src={exp.logo} alt="Default Logo" className={styles.imgContainer} />
+                <img src={exp.logo} alt="SVG Logo" className={styles.svgLogo} />
             </a>
         );
     }
@@ -94,7 +94,6 @@ export const Experience = ({ experiences }) => {
                     <div className={styles.tabHeader}>{exp.fileName}</div>
                     <div className={styles.textContainer}>
                         
-                        {/* WRAP THE LOGO HERE */}
                         <div className={styles.logoWrapper}>
                             {displayLogo(exp)}
                         </div>
