@@ -4,7 +4,9 @@ import styles from './ContactCard.module.css';
 export const ContactCard = () => {
     return (
         <section className={styles.contactContainer}>
-            <img src="headshot.png" alt="Image of me" className={styles.contactImg}/>
+            <a href="https://www.linkedin.com/in/claudio-perinuzzi/" target="_blank" rel="noopener noreferrer">
+                <img src="headshot.png" alt="Image of me" className={styles.contactImg}/>
+            </a>
                 
                 <div className={styles.textContainer}>
                     <div className={styles.nameContainer}>
