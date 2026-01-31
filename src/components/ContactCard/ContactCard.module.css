@@ -30,10 +30,16 @@
 
 .contactImg {
     border-radius: 55px;
-    width: 45%;
+    width: 100%;
     max-width: 300px;
     min-width: 240px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
     animation: fadeIn 1.25s ease-in-out forwards; 
+}
+
+.contactImg:hover {
+    transform: scale(1.02); 
 }
 
 .nameContainer {
@@ -68,7 +74,7 @@
     display: flex;
     justify-content: center;
     gap: 15px; 
-        animation: fadeIn 3.5s ease-in-out forwards; 
+    animation: fadeIn 3.5s ease-in-out forwards; 
 }
 
 .resumeContainer {
