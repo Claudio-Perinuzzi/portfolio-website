@@ -84,7 +84,7 @@
     border-right: 1px solid #686a68;
     animation: typing 1s steps(15, end), blink 1s step-end infinite;
     animation-delay: .8s, 2s;
-    color: rgb(218, 213, 213);
+    color: #cccccc;
 }
 
 @keyframes typing {
@@ -118,7 +118,7 @@
 }
 
 .userTerminal {
-    color: #8ae234;
+    color: #16c60c;
     font-size: 13.5px;
 }
 
