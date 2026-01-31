@@ -97,6 +97,8 @@ export const projectData = [
         ghUrl: 'https://github.com/Claudio-Perinuzzi/encrypt-pdf',
         demoUrl: false,
         download: 'https://github.com/Claudio-Perinuzzi/DropLock-PDF/releases/tag/v1.0.0',
+        license: '⚖️ MIT License',
+        licenseUrl: 'https://github.com/Claudio-Perinuzzi/DropLock-PDF?tab=MIT-1-ov-file',
         description: [
             { text: "Developed a  ", highlight: false },
             { text: "Python-based ", highlight: true },
