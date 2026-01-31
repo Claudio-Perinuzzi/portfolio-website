@@ -15,11 +15,13 @@ export const experienceData = [
             { text: '', break: true },
             { text: 'Manage full software integration projects ', highlight: true },
             { text: 'with customer, internal, and external partners.', highlight: false },
+            // TODO: Ruby and Ansible Script for automations
+            // TODO: OVA
         ]
     },
     {
         fileName: 'East_End_Hand_Surgery.txt',
-        logo: 'eehs_logo.png',
+        logo: 'eehs_logo.svg',  
         title: 'Software Application Analyst & Programmer',
         time: 'May 2016 - October 2025',
         description: [
