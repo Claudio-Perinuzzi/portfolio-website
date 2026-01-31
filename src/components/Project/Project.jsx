@@ -59,6 +59,14 @@ export const Project = ( {projects} ) => {
                                     </a>
                                 )}
                             </div>
+
+                                {/* Render License if it Exists */}
+                                {proj.license && (
+                                    <a href={proj.licenseUrl} target="_blank" rel="noopener noreferrer">
+                                        <p className={styles.license}>{proj.license}</p>
+                                    </a>
+                                )}
+
                         </div>
                     </div>   
                 );
