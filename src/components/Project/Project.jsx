@@ -27,7 +27,14 @@ export const Project = ( {projects} ) => {
                                 <span className={styles.time}>{proj.time}</span>                            
                             </div>
                             <br />
-                                <a href={proj.ghUrl} target="_blank" rel="noopener noreferrer" className={styles.imgContainer}>
+
+                                {/* Render project logo if it exists */}
+                                {proj.logoPath && (
+                                    <img className={styles.logoImg} src={proj.logoPath} alt="Project Logo" style={{ width: proj.logoSize }}/>
+                                )}
+
+                                {/* Render example project image */}
+                                <a href={proj.ghUrl} target="_blank" rel="noopener noreferrer" className={styles.imgExample}>
                                     <img className={styles.img} src={proj.imgPath} alt="Project Image"/>
                                 </a>
                             <br />
@@ -60,12 +67,12 @@ export const Project = ( {projects} ) => {
                                 )}
                             </div>
 
-                                {/* Render License if it Exists */}
-                                {proj.license && (
-                                    <a href={proj.licenseUrl} target="_blank" rel="noopener noreferrer">
-                                        <p className={styles.license}>{proj.license}</p>
-                                    </a>
-                                )}
+                            {/* Render License if it Exists */}
+                            {proj.license && (
+                                <a href={proj.licenseUrl} target="_blank" rel="noopener noreferrer">
+                                    <p className={styles.license}>{proj.license}</p>
+                                </a>
+                            )}
 
                         </div>
                     </div>   
