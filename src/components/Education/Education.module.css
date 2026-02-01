@@ -21,21 +21,6 @@
     color: rgb(248, 74, 68);
 }
 
-.windowContainer {
-    margin: 20px auto;
-    margin-bottom: 50px;
-    border-radius: 5px;
-    font-size: 12.5px;
-    border-style: solid;
-    border-color: white;
-    border-width: 0.5px;
-    max-width: 400px;
-    min-width: 370px;
-    width: calc(100% - 100px);
-    background-color: var(--color-ide-bg2);
-    box-sizing: border-box;
-}
-
 .tabHeader {
     color: white;
     font-size: 15px;
@@ -47,58 +32,81 @@
     border-radius: 5px;
 }
 
+.windowContainer {
+    margin: 20px auto;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.5px;
+    max-width: 610px; 
+    min-width: 370px;
+    width: calc(100% - 100px);
+    background-color: var(--color-ide-bg2);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.cardsWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch; 
+    gap: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    flex-wrap: wrap; 
+}
+
+.cardsWrapper a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .schoolContainer {
     display: flex;
-    justify-content: center;
-    padding: 15px;
-    gap: 15px;
-    border-bottom: 0.5px solid var(--color-border);
-    margin-left: 30px;
-    margin-right: auto;
-    /* opacity: 0; 
-    animation: fadeIn 1s ease-in-out forwards; 
-    animation-delay: 0.2s;  */
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;   
+    
+    padding: 15px 15px;
+    gap: 10px;
+
+    border: 0.5px solid var(--color-border);
+    margin: 0 auto;         
+    width: 280px; 
+    
+    transition: background 0.3s ease, transform 0.3s ease;
+    border-radius: 12px;
+    height: 100%; 
+    box-sizing: border-box;
 }
 
-.masterHighlightColor {
-    color: mediumspringgreen;
-    font-weight: bold;
+.schoolContainer:hover {
+    background: rgba(255, 255, 255, 0.03);
+    transform: translateY(-5px);
 }
 
-.bachelorHighlightColor {
-    color:rgb(130, 246, 202);
+.schoolImg {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
 }
 
 .textContainer {
-    color: rgb(240, 240, 240);
+    color: rgb(95, 206, 204);
     margin: 0;
-    padding: 0;
-    margin-left: 15px;
-    margin-top: 5px;
-    font-size: 14px;
-    width: 250px;
-    padding-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.6; 
 }
 
 .degreeDetails {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 90px; 
+    gap: 4px;
 }
-
-.schoolImg {
-    width: 100px;
-    height: auto;
-    object-fit: contain;
-}
-
-.schoolImg:hover {  
-  transform: scale(1.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
-}
-
 
 /* @keyframes fadeIn {
     from {
