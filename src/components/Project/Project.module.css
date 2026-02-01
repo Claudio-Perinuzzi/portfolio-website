@@ -106,7 +106,14 @@
     padding: 2px;
 }
 
-.imgContainer {
+.logoImg {
+    display: block;
+    margin: 0 auto;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+.imgExample {
     max-width: 60%; 
     display: block;
     margin: 0 auto; 
@@ -123,7 +130,7 @@
     transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-.imgContainer:hover .img {
+.img:hover {
     transform: scale(1.015);
 }
 
@@ -159,12 +166,11 @@ a {
 .license {
     padding-top: 20px;
     display: block;       
-    text-align: center;   
+    text-align: left;   
     margin: 0 auto;        
-    width: fit-content;    
-    
-    font-size: 18px;
-    color: rgb(98, 212, 138);
+    /* width: fit-content;     */
+    font-size: 14px;
+    color: rgb(132, 134, 133);
     position: relative;
     text-decoration: none;
 }
@@ -172,11 +178,11 @@ a {
 .license::after {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 16.3%;
     height: 1px;            
     bottom: 0;
     left: 0;
-    background-color: rgb(98, 212, 138); 
+    background-color: rgb(132, 134, 133);
     transform: scaleX(0);    
     transform-origin: bottom left; 
     transition: transform 0.3s ease-out; 
