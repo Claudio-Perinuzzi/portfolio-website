@@ -1,4 +1,24 @@
 export const projectData = [
+        {
+        projHeader: 'Metabolic_Precursor.txt',
+        title: 'GlucoLink',
+        time: 'March 2026 - Present',
+        imgPath: false,
+        logoPath: 'glucose_white.svg',
+        logoSize: '25%',
+        ghUrl: false,
+        demoUrl: false,
+        download: false,
+        description: [
+            { text: 'Currently developing a full stack application and training a machine learning model to forecast', highlight: false },
+            { text: 'postprandial blood glucose responses based on nutritional intake and biometric data.', highlight: true },
+            { text: '', break: true },
+            { text: '', break: true },
+            { text: 'Enable users to proactively ', highlight: false },
+            { text: 'mitigate glycemic spikes ', highlight: true },
+            { text: 'by providing predictive insights before a meal is consumed.', highlight: false },
+        ]
+    },   
     {
         projHeader: 'Content_Rediscovery.txt',
         title: 'C-Sphere',
