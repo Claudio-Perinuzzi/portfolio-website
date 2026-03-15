@@ -4,7 +4,7 @@ export const projectData = [
         title: 'GlucoLink',
         time: 'March 2026 - Present',
         imgPath: false,
-        logoPath: 'glucose_white.svg',
+        logoPath: 'glucose_all_white.svg',
         logoSize: '25%',
         ghUrl: false,
         demoUrl: false,
