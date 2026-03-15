@@ -15,8 +15,12 @@ export const experienceData = [
             { text: '', break: true },
             { text: 'Manage full software integration projects ', highlight: true },
             { text: 'with customer, internal, and external partners.', highlight: false },
-            // TODO: Ruby and Ansible Script for automations
-            // TODO: OVA
+            { text: '', break: true },
+            { text: 'Developed and integrated ', highlight: true },
+            { text: 'internal tools using ', highlight: false },
+            { text: 'Ruby and Ansible ', highlight: true },
+            { text: 'to automate customer OVA configurations, ', highlight: false },
+            { text: 'reducing manual configuration time by ~40%.', highlight: true },
         ]
     },
     {
