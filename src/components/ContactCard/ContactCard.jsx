@@ -41,7 +41,7 @@ export const ContactCard = () => {
                     </div>
 
                     <div className={styles.resumeContainer}>
-                        <a href="resume_2025.pdf" target="_blank" rel="noopener noreferrer">
+                        <a href="resume_2026.pdf" target="_blank" rel="noopener noreferrer">
                             <button className={styles.resume}>
                                 <img src="resume_img.svg" alt="LinkedIn Logo" className={styles.icon} />
                                 Resume
