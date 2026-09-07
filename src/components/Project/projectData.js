@@ -1,8 +1,8 @@
 export const projectData = [
-        {
+    {
         projHeader: 'Metabolic_Precursor.txt',
         title: 'GlucoLink',
-        time: 'March 2026 - Present',
+        time: 'Present',
         imgPath: false,
         logoPath: 'glucose_all_white.svg',
         logoSize: '25%',
@@ -18,7 +18,7 @@ export const projectData = [
             { text: 'mitigate glycemic spikes ', highlight: true },
             { text: 'by providing predictive insights before a meal is consumed.', highlight: false },
         ]
-    },   
+    },
     {
         projHeader: 'Content_Rediscovery.txt',
         title: 'C-Sphere',
@@ -36,14 +36,14 @@ export const projectData = [
             { text: 'intelligently summarizes, organizes ', highlight: true },
             { text: 'and helps users rediscover saved bookmarks through advanced search capabilities.', highlight: false },
             { text: '', break: true },
-            { text: '', break: true },            
+            { text: '', break: true },
             { text: 'Engineered a ', highlight: false },
             { text: 'Retrieval-Augmented Generation (RAG) ', highlight: true },
             { text: 'backend pipeline by combining ', highlight: false },
             { text: 'intelligent content summarization, semantic vector search, and embedding-based storage/retrieval using PostgreSQL, ', highlight: true },
             { text: 'resulting in optimized user data storage and intelligent content querying.', highlight: false },
         ]
-    },    
+    },
     {
         projHeader: 'Learn_American_Sign_Language.txt',
         title: 'Gesture Once',
