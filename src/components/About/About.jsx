@@ -21,11 +21,18 @@ export const About = () => {
                         Hello, I'm Claudio Perinuzzi! 
                         <br />
                         <br />
-                        I am currently a Software Integration Engineer at STERIS with a Master's Degree in Computer Science.
-                        I have previously worked as a Software Application Developer/Analyst for East End Hand Surgery for over 9 years. 
-                        I enjoy analyzing complex tasks, developing clear workflows, and implementing software solutions that 
-                        streamline operations. I am also passionate about solving real-world challenges 
-                        and creating software that is accessible and impactful. 
+                        My journey started with a degree in Biology, where I was fascinated by human physiology 
+                        and medicine. Realizing I had a natural knack for technology, I went on to pursue 
+                        a Master’s in Computer Science to help build software that has a direct, meaningful impact 
+                        on people's lives.    
+                        <br />
+                        <br />
+                        Currently, I work as a Software Integration Engineer at STERIS. My work lives on the ground 
+                        in hospital networks, ensuring that critical data pipelines, medical device APIs, and EMR 
+                        integrations function flawlessly when a patient is on the operating table. Before this, 
+                        I spent over nine years as a Software Developer & Analyst at East End Hand Surgery, 
+                        where I built custom automation tools that saved clinical staff over 14 hours weekly.
+                        For me, software engineering and integration is a way to indirectly contribute to patient care. 
                         <br />
                         <br />
                         Beyond my academic and professional life, I enjoy spending time in nature,
